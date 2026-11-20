@@ -4,7 +4,13 @@
     {
         static void Main(string[] args)
         {
-            
+            #region Q!
+            string title = "clean code";
+            string uppertitle = title.ToUpper();
+            Console.WriteLine(title);
+            Console.WriteLine(uppertitle);
+            #endregion
+
         }
     }
 }

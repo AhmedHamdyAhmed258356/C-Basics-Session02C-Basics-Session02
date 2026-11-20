@@ -29,11 +29,18 @@ namespace C__Basics_Session02C__Basics_Session02
             #region Q4
             //Using the StringBuilder from the question above, use Replace() to change "Book List" into "Library".
             //Print the result.
-            StringBuilder sb = new StringBuilder();
-            sb.Append("book list");
-            sb.Append("_update");
-            sb.Replace("book list", "Library");
-            Console.WriteLine(sb);
+            //StringBuilder sb = new StringBuilder();
+            //sb.Append("book list");
+            //sb.Append("_update");
+            //sb.Replace("book list", "Library");
+            //Console.WriteLine(sb);
+            #endregion
+            #region Q5
+            //Given string title = "Clean Code"; and int pages = 464;, build the sentence "Book: Clean Code,
+            // Pages: 464" using the + operator
+            string title = "clean code";
+            int pages = 464;
+            Console.WriteLine("Book: " + title + " , Pages: " + pages);
             #endregion
         }
     }

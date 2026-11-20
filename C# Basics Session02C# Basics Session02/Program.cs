@@ -38,9 +38,16 @@ namespace C__Basics_Session02C__Basics_Session02
             #region Q5
             //Given string title = "Clean Code"; and int pages = 464;, build the sentence "Book: Clean Code,
             // Pages: 464" using the + operator
+            //string title = "clean code";
+            //int pages = 464;
+            //Console.WriteLine("Book: " + title + " , Pages: " + pages);
+            #endregion
+            #region Q6
+            // Build the same sentence as above, but using string interpolation ($"...").
             string title = "clean code";
             int pages = 464;
-            Console.WriteLine("Book: " + title + " , Pages: " + pages);
+            string interpolatioh=$"Book: {title} , pages : {pages}.";
+            Console.WriteLine(interpolatioh);
             #endregion
         }
     }

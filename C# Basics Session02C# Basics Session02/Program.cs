@@ -44,10 +44,17 @@ namespace C__Basics_Session02C__Basics_Session02
             #endregion
             #region Q6
             // Build the same sentence as above, but using string interpolation ($"...").
+            //string title = "clean code";
+            //int pages = 464;
+            //string interpolatioh=$"Book: {title} , pages : {pages}.";
+            //Console.WriteLine(interpolatioh);
+            #endregion
+            #region Q7
+            //Build the same sentence again, but using string.Format().
             string title = "clean code";
             int pages = 464;
-            string interpolatioh=$"Book: {title} , pages : {pages}.";
-            Console.WriteLine(interpolatioh);
+            string format =string.Format("Book: {0}, Pages: {1}", title, pages);
+            Console.WriteLine(format);
             #endregion
         }
     }
